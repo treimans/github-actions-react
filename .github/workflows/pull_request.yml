@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print clntext
-        run: echo "${{ to JSON(github) }}"
+        run: echo "${{ toJSON(github) }}"
